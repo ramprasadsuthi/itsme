@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rama Kishore Vaddadi | IT Infrastructure & Technology Leader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0b1c2d;
+      --secondary: #0ea5e9;
+      --accent: #facc15;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --muted: #64748b;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--primary);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      color: #fff;
+      padding: 60px 20px;
+    }
+
+    .hero {
+      max-width: 1200px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+
+    .profile-row {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(250, 204, 21, 0.7);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #e5e7eb;
+      margin-top: 15px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(250, 204, 21, 0.15);
+      color: #facc15;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .hero-card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 30px;
+      backdrop-filter: blur(10px);
+    }
+
+    section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      width: 60px;
+      height: 4px;
+      background: var(--secondary);
+      border-radius: 4px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 18px;
+      padding: 30px;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 30px 60px rgba(15, 23, 42, 0.12);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 20px;
+      color: var(--secondary);
+    }
+
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .skills span {
+      background: #eff6ff;
+      color: var(--secondary);
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    footer {
+      background: #020617;
+      color: #cbd5f5;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    @media (max-width: 900px) {
+      .hero {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .profile-row {
+        flex-direction: column;
+      }
+
+      h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="hero">
+
+    <div>
+
+      <div class="profile-row">
+        <img src="rama_profile.png" alt="Rama Kishore Vaddadi" class="profile-pic">
+
+        <div>
+          <span class="badge">
+            Enterprise IT • Global Operations • Technology Leadership
+          </span>
+
+          <h1>Rama Kishore Vaddadi</h1>
+        </div>
+      </div>
+
+      <p>
+        Vice President – Information Technology | Enterprise Infrastructure Leader |
+        Global Service Delivery Expert with 23+ years of experience driving
+        technology transformation and operational excellence.
+      </p>
+
+    </div>
+
+    <div class="hero-card">
+      <p><strong>Current Role</strong></p>
+      <p>Vice President – Information Technology</p>
+      <p>Teleperformance</p>
+      <p>Enterprise IT Operations • Infrastructure Services • Global Delivery</p>
+    </div>
+
+  </div>
+</header>
+
+<section>
+  <h2>Professional Summary</h2>
+
+  <p>
+    Rama Kishore Vaddadi is a highly accomplished Information Technology executive
+    with more than two decades of experience in enterprise infrastructure management,
+    global service delivery, and IT operations leadership.
+  </p>
+
+  <p>
+    He has worked with globally recognized organizations including Teleperformance,
+    Tata Consultancy Services (TCS), IBM, and Satyam Computers, leading
+    large-scale technology operations and managing high-performing global teams.
+  </p>
+</section>
+
+<section>
+  <h2>Leadership Experience</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Teleperformance</h3>
+      <div class="meta">Vice President – Information Technology</div>
+
+      <ul>
+        <li>Leading enterprise-scale IT infrastructure and global operations.</li>
+        <li>Managing strategic technology portfolios and operational delivery.</li>
+        <li>Driving process optimization, governance, and service excellence.</li>
+        <li>Leading cross-functional teams across enterprise technology domains.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Tata Consultancy Services (TCS)</h3>
+      <div class="meta">Technology & Service Delivery Leadership</div>
+
+      <ul>
+        <li>Managed enterprise IT support and service delivery operations.</li>
+        <li>Worked on infrastructure management and client engagement initiatives.</li>
+        <li>Contributed to operational excellence and process transformation.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>IBM & Satyam Computers</h3>
+      <div class="meta">Enterprise Technology Operations</div>
+
+      <ul>
+        <li>Handled infrastructure support and enterprise operations.</li>
+        <li>Worked in large-scale technology environments and global teams.</li>
+        <li>Built expertise in enterprise IT governance and delivery management.</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Core Expertise</h2>
+
+  <div class="skills">
+    <span>Enterprise IT Infrastructure</span>
+    <span>Global Service Delivery</span>
+    <span>IT Operations</span>
+    <span>Digital Transformation</span>
+    <span>Technology Governance</span>
+    <span>ITIL Service Management</span>
+    <span>Operational Excellence</span>
+    <span>Stakeholder Management</span>
+    <span>Business Continuity</span>
+    <span>Infrastructure Support</span>
+    <span>Team Leadership</span>
+    <span>Process Improvement</span>
+  </div>
+</section>
+
+<section>
+  <h2>Education & Certifications</h2>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Education</h3>
+
+      <ul>
+        <li>Master of Computer Applications (MCA)</li>
+        <li>Sri Venkateswara University</li>
+        <li>Bachelor’s Degree in Mathematics & Computer Science</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Certifications</h3>
+
+      <ul>
+        <li>ITIL v3 Certified</li>
+        <li>Six Sigma Green Belt Certified</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>LinkedIn Profile</h2>
+
+  <div class="card">
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/rama-kishore-vaddadi-607aa120/" target="_blank">
+        linkedin.com/in/rama-kishore-vaddadi-607aa120
+      </a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Rama Kishore Vaddadi · Enterprise IT Leadership · Global Technology Operations</p>
+</footer>
+
+</body>
+</html>
